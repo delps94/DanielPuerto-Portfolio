@@ -60,7 +60,7 @@ a:hover {
 
 /* Estilos para el footer */
 footer {
-    position: fixed; /* Fijo en la parte inferior */
+    position:relative; /* Fijo en la parte inferior */
     left: 0;
     bottom: 0;
     width: 100%;
