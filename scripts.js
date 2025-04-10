@@ -1,8 +1,2 @@
-// Obtiene el botón usando su id
-const emailButton = document.getElementById("emailButton");
-
-// Añadir un evento de clic al botón
-emailButton.addEventListener("click", function() {
-    // Usamos el protocolo mailto para abrir la aplicación de correo
-    window.location.href = "mailto:delpuertodaniel@hotmail.com?subject=Consulta desde mi Portfolio&body=Escribe tu mensaje aquí...";
-});
+// No hemos añadido funcionalidades JavaScript específicas, ya que el botón "Contáctame" usa un enlace mailto, pero aquí está el archivo de JS.
+console.log("Portfolio cargado correctamente.");

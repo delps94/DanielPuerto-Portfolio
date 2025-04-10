@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2 {
@@ -55,9 +58,20 @@ a:hover {
     background-color: #004d99;
 }
 
-/* Media Query para pantallas más pequeñas (móviles) */
+/* Estilos para el footer */
+footer {
+    position: fixed; /* Fijo en la parte inferior */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Ajustes para pantallas más pequeñas (móviles) */
 @media (max-width: 768px) {
-    /* Ajustamos márgenes y tamaños de texto */
     h1 {
         font-size: 24px;
     }
@@ -72,7 +86,7 @@ a:hover {
 
     .btn {
         padding: 12px 25px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     section {
@@ -84,9 +98,8 @@ a:hover {
     }
 }
 
-/* Media Query para pantallas medianas (tabletas) */
+/* Ajustes para pantallas medianas (tabletas) */
 @media (max-width: 1024px) {
-    /* Ajustamos márgenes y tamaños de texto */
     h1 {
         font-size: 28px;
     }
@@ -101,7 +114,7 @@ a:hover {
 
     .btn {
         padding: 14px 30px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .contacto {
@@ -109,7 +122,7 @@ a:hover {
     }
 }
 
-/* Media Query para pantallas grandes (escritorios y laptops) */
+/* Ajustes para pantallas grandes (escritorios y laptops) */
 @media (min-width: 1025px) {
     h1 {
         font-size: 36px;
@@ -136,4 +149,3 @@ a:hover {
         margin-top: 60px;
     }
 }
-
