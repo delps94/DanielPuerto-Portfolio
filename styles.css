@@ -1,44 +1,32 @@
-/* Estilos Generales */
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    color: #333;
+    background-color: #f4f4f4;
 }
 
-header {
-    background-color: #0066cc;
-    color: white;
+h1, h2 {
     text-align: center;
-    padding: 2rem;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-p {
-    font-size: 1.2rem;
+    margin: 20px 0;
 }
 
 section {
-    padding: 2rem;
-    margin: 0 10%;
+    margin: 20px;
 }
 
-footer {
-    background-color: #0066cc;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 a {
-    color: white;
+    color: #0066cc;
     text-decoration: none;
 }
 
@@ -46,13 +34,106 @@ a:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-with:600px){
-
-header{
-
-    padding: 1rem;
-}   a 
-section{
-    margin: 0.5%;
+/* Estilos para el botón */
+.contacto {
+    text-align: center;
+    margin-top: 50px;
 }
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
+
+.btn:hover {
+    background-color: #004d99;
+}
+
+/* Media Query para pantallas más pequeñas (móviles) */
+@media (max-width: 768px) {
+    /* Ajustamos márgenes y tamaños de texto */
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 18px;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    .contacto {
+        margin-top: 30px;
+    }
+}
+
+/* Media Query para pantallas medianas (tabletas) */
+@media (max-width: 1024px) {
+    /* Ajustamos márgenes y tamaños de texto */
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 14px 30px;
+        font-size: 20px;
+    }
+
+    .contacto {
+        margin-top: 40px;
+    }
+}
+
+/* Media Query para pantallas grandes (escritorios y laptops) */
+@media (min-width: 1025px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 16px 35px;
+        font-size: 22px;
+    }
+
+    section {
+        margin: 30px;
+    }
+
+    .contacto {
+        margin-top: 60px;
+    }
+}
+
